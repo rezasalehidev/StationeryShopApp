@@ -6,6 +6,10 @@ import DrawerNavigator from './src/views/navigators/DrawerNavigator';
 import DetailsScreen from './src/views/screens/DetailsScreen';
 const Stack = createStackNavigator();
 
+//sovle warnings in Project
+import {LogBox} from 'react-native';
+LogBox.ignoreLogs(['Reanimated 2']);
+
 const App = () => {
   return (
     <NavigationContainer>
