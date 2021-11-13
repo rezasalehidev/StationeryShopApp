@@ -43,7 +43,7 @@ const DrawerNavigator = () => {
             <AntDesign name="home" color={color} size={25} />
           ),
         }}>
-        {({props}) => (
+        {props => (
           <DrawerContainer>
             <HomeScreen {...props} />
           </DrawerContainer>

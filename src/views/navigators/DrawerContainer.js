@@ -26,7 +26,7 @@ const DrawerContainer = ({children}) => {
         borderRadius,
       }}>
       <StatusBar
-        barStyle="dark-content"
+        barStyle={isOpen == 'open' ? 'dark-content' : 'COLORS.secondary'}
         backgroundColor={isOpen == 'open' ? COLORS.white : COLORS.secondary}
       />
       {children}
