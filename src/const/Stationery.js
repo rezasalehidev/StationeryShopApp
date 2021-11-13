@@ -1,24 +1,24 @@
 const Stationery = [
   {
-    name: 'Pens',
+    name: 'eraser',
     names: [
       {
         id: '1',
-        name: 'Pen1',
+        name: 'eraser1',
         image: require('../assets/eraser1.png'),
         type: 'eraser',
         prety: '5 score',
       },
       {
         id: '2',
-        name: 'Pen2',
+        name: 'eraser2',
         image: require('../assets/eraser2.png'),
         type: 'eraser',
         prety: '4 score',
       },
       {
         id: '3',
-        name: 'Pen3',
+        name: 'eraser3',
         image: require('../assets/eraser3.png'),
         type: 'eraser',
         prety: '3 score',
@@ -56,7 +56,7 @@ const Stationery = [
       },
       {
         id: '2',
-        name: 'pen',
+        name: 'pen2',
         image: require('../assets/pen2.png'),
         type: 'pen',
         prety: '5 score',
